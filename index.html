@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leo's Coffee - Gemütliches Café in Prenzlauer Berg, Berlin. Frühstück, frische Säfte, Paninis und erstklassiger Kaffee. Greifswalder Str. 2, 10405 Berlin.">
+    <meta name="keywords" content="Leo's Coffee, Café Berlin, Prenzlauer Berg, Frühstück, Kaffee, Panini, Fresh Juice, Berlin Café">
+    <meta name="author" content="Leo's Coffee">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://f246632.github.io/168_Leo's Coffee/">
+    <meta property="og:title" content="Leo's Coffee - Café in Prenzlauer Berg, Berlin">
+    <meta property="og:description" content="Gemütliches Café mit Frühstück, frischen Säften und erstklassigem Kaffee. Ideal zum Arbeiten am Laptop.">
+    <meta property="og:image" content="https://f246632.github.io/168_Leo's Coffee/images/source/hero-exterior-1.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Leo's Coffee - Café Berlin">
+    <meta name="twitter:description" content="Ihr Lieblingscafé in Prenzlauer Berg">
+    <meta name="twitter:image" content="https://f246632.github.io/168_Leo's Coffee/images/source/hero-exterior-1.jpg">
+
+    <title>Leo's Coffee - Café in Prenzlauer Berg, Berlin</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Leo's Coffee",
+        "image": "https://f246632.github.io/168_Leo's Coffee/images/source/hero-exterior-1.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Greifswalder Straße 2",
+            "addressLocality": "Berlin",
+            "addressRegion": "Berlin",
+            "postalCode": "10405",
+            "addressCountry": "DE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.5319,
+            "longitude": 13.4237
+        },
+        "telephone": "+49 30 50593889",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "08:00",
+                "closes": "17:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Sunday",
+                "opens": "10:00",
+                "closes": "17:00"
+            }
+        ],
+        "servesCuisine": "Café, Frühstück, Coffee",
+        "priceRange": "€€",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "589"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Leo's Coffee</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#menu" class="nav-link">Speisekarte</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#reviews" class="nav-link">Bewertungen</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('images/source/hero-exterior-1.jpg')">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('images/source/hero-exterior-2.jpg')">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h2 class="hero-title">Leo's Coffee</h2>
+            <p class="hero-subtitle">Ihr gemütliches Café im Herzen von Prenzlauer Berg</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Speisekarte</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Nach unten scrollen">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Willkommen bei Leo's Coffee</h2>
+                    <p class="section-subtitle">Ihr Nachbarschaftscafé seit vielen Jahren</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">Leo's Coffee ist mehr als nur ein Café – es ist Ihr zweites Wohnzimmer im lebendigen Prenzlauer Berg.</p>
+                        <p>Wir bieten eine warme, einladende Atmosphäre, in der Sie Ihren Tag mit einem perfekten Frühstück beginnen, entspannt arbeiten oder einfach bei einer Tasse ausgezeichnetem Kaffee die Zeit genießen können.</p>
+                        <p>Unser Team bereitet jeden Tag frische Speisen und Getränke zu, von handgefertigten Paninis bis zu frisch gepressten Säften. Wir sind stolz darauf, ein Ort zu sein, an dem sich Nachbarn treffen und neue Freundschaften entstehen.</p>
+
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">☕</div>
+                                <h3>Erstklassiger Kaffee</h3>
+                                <p>Sorgfältig ausgewählte Bohnen und professionelle Zubereitung</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🍳</div>
+                                <h3>Frühstück den ganzen Tag</h3>
+                                <p>Frische, hausgemachte Frühstücksoptionen bis zum Nachmittag</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🥤</div>
+                                <h3>Frische Säfte</h3>
+                                <p>Täglich frisch gepresste Obst- und Gemüsesäfte</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🥖</div>
+                                <h3>Panini Angebote</h3>
+                                <p>2-für-1 Panini-Deals und hausgemachte Sandwiches</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">💻</div>
+                                <h3>Laptop-freundlich</h3>
+                                <p>Kostenloser WLAN und gemütliche Arbeitsplätze</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🍵</div>
+                                <h3>Große Tee-Auswahl</h3>
+                                <p>Vielfältige Teesorten für jeden Geschmack</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section menu">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Unsere Speisekarte</h2>
+                    <p class="section-subtitle">Frisch zubereitet mit Liebe zum Detail</p>
+                </div>
+
+                <div class="menu-categories">
+                    <!-- Coffee & Drinks -->
+                    <div class="menu-category">
+                        <h3 class="category-title">Kaffee & Heiße Getränke</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Espresso</h4>
+                                    <span class="price">€2.50</span>
+                                </div>
+                                <p class="item-description">Klassischer italienischer Espresso</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Cappuccino</h4>
+                                    <span class="price">€3.50</span>
+                                </div>
+                                <p class="item-description">Espresso mit geschäumter Milch</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Latte Macchiato</h4>
+                                    <span class="price">€3.80</span>
+                                </div>
+                                <p class="item-description">Espresso mit heißer Milch und Milchschaum</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Flat White</h4>
+                                    <span class="price">€3.80</span>
+                                </div>
+                                <p class="item-description">Doppelter Ristretto mit Mikroschaumm</p>
+                            </div>
+                            <div class="menu-item featured">
+                                <div class="item-header">
+                                    <h4>Filterkaffee</h4>
+                                    <span class="price">€2.80</span>
+                                </div>
+                                <p class="item-description">Handgefiltert mit wechselnden Bohnen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Breakfast -->
+                    <div class="menu-category">
+                        <h3 class="category-title">Frühstück</h3>
+                        <p class="category-note">Täglich bis 17:00 Uhr verfügbar</p>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Leo's Frühstück</h4>
+                                    <span class="price">€9.50</span>
+                                </div>
+                                <p class="item-description">Brot, Aufschnitt, Käse, Marmelade, Ei nach Wahl</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Vegetarisches Frühstück</h4>
+                                    <span class="price">€8.90</span>
+                                </div>
+                                <p class="item-description">Brot, Käse, Gemüse, Hummus, Avocado</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Rührei mit Lachs</h4>
+                                    <span class="price">€11.50</span>
+                                </div>
+                                <p class="item-description">Cremiges Rührei mit geräuchertem Lachs und Brot</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Porridge</h4>
+                                    <span class="price">€6.50</span>
+                                </div>
+                                <p class="item-description">Haferbrei mit frischen Früchten und Nüssen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panini & Snacks -->
+                    <div class="menu-category">
+                        <h3 class="category-title">Panini & Snacks</h3>
+                        <div class="promo-badge">2-für-1 Panini Angebot!</div>
+                        <div class="menu-items">
+                            <div class="menu-item featured">
+                                <div class="item-header">
+                                    <h4>Italiano Panini</h4>
+                                    <span class="price">€6.50</span>
+                                </div>
+                                <p class="item-description">Mozzarella, Tomaten, Basilikum, Balsamico</p>
+                            </div>
+                            <div class="menu-item featured">
+                                <div class="item-header">
+                                    <h4>Schinken & Käse Panini</h4>
+                                    <span class="price">€6.50</span>
+                                </div>
+                                <p class="item-description">Geräucherter Schinken, Gouda, Rucola</p>
+                            </div>
+                            <div class="menu-item featured">
+                                <div class="item-header">
+                                    <h4>Veggie Panini</h4>
+                                    <span class="price">€6.00</span>
+                                </div>
+                                <p class="item-description">Gegrilltes Gemüse, Ziegenkäse, Pesto</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Croissant</h4>
+                                    <span class="price">€2.50</span>
+                                </div>
+                                <p class="item-description">Butteriges französisches Croissant</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Kuchen des Tages</h4>
+                                    <span class="price">€3.80</span>
+                                </div>
+                                <p class="item-description">Hausgemachte Kuchen und Gebäck</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fresh Juices -->
+                    <div class="menu-category">
+                        <h3 class="category-title">Frische Säfte</h3>
+                        <p class="category-note">Täglich frisch gepresst</p>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Orangensaft</h4>
+                                    <span class="price">€4.50</span>
+                                </div>
+                                <p class="item-description">Frisch gepresste Orangen</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Grüner Smoothie</h4>
+                                    <span class="price">€5.50</span>
+                                </div>
+                                <p class="item-description">Spinat, Apfel, Banane, Ingwer</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Beeren-Mix</h4>
+                                    <span class="price">€5.50</span>
+                                </div>
+                                <p class="item-description">Erdbeeren, Blaubeeren, Himbeeren, Joghurt</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h4>Karotte-Ingwer-Shot</h4>
+                                    <span class="price">€3.50</span>
+                                </div>
+                                <p class="item-description">Frische Karotten mit Bio-Ingwer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-note">
+                    <p><strong>Hinweis:</strong> Preise sind Richtwerte. Bitte fragen Sie nach aktuellen Preisen und Tagesangeboten.</p>
+                    <p>Wir bieten auch vegane und glutenfreie Optionen. Sprechen Sie uns gerne an!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Unsere Galerie</h2>
+                    <p class="section-subtitle">Ein Blick in unser gemütliches Café</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="interior">
+                        <img src="images/source/gallery-interior-1.jpg" alt="Gemütlicher Innenraum von Leo's Coffee" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Unsere gemütliche Atmosphäre</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="interior">
+                        <img src="images/source/gallery-interior-2.jpg" alt="Sitzbereich im Café" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Perfekt zum Entspannen</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="interior">
+                        <img src="images/source/gallery-interior-3.jpg" alt="Moderne Café-Einrichtung" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Modernes Design trifft Gemütlichkeit</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="seating">
+                        <img src="images/source/gallery-seating-1.jpg" alt="Sitzgelegenheiten im Café" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Viel Platz zum Arbeiten</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="coffee">
+                        <img src="images/source/gallery-coffee-1.jpg" alt="Frischer Kaffee bei Leo's" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Erstklassiger Kaffee</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="coffee">
+                        <img src="images/source/gallery-coffee-2.jpg" alt="Kaffee-Spezialitäten" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Handgefertigt mit Liebe</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="team">
+                        <img src="images/source/gallery-barista-1.jpg" alt="Unser freundliches Team" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Unser engagiertes Team</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/source/gallery-food-1.jpg" alt="Frische Speisen und Gebäck" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Frische Speisen täglich</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="section reviews">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Was unsere Gäste sagen</h2>
+                    <div class="rating-summary">
+                        <div class="stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                        <p class="rating-text">4.8 von 5 Sternen (589 Bewertungen auf Google)</p>
+                    </div>
+                </div>
+
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                            <span class="review-date">Google Bewertung</span>
+                        </div>
+                        <p class="review-text">"Gemütliches Café mit hervorragendem Kaffee. Die Atmosphäre ist perfekt zum Arbeiten und die Paninis sind unglaublich lecker. Mein Lieblingscafé in Prenzlauer Berg!"</p>
+                        <p class="review-author">– Lokaler Gast</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                            <span class="review-date">Google Bewertung</span>
+                        </div>
+                        <p class="review-text">"Die frischen Säfte sind fantastisch! Das Personal ist sehr freundlich und das Frühstück ist immer frisch und lecker. Ein echtes Juwel in der Nachbarschaft."</p>
+                        <p class="review-author">– Stammkundin</p>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                            <span class="review-date">Google Bewertung</span>
+                        </div>
+                        <p class="review-text">"Toller Ort zum Arbeiten mit Laptop. WLAN funktioniert einwandfrei und der Kaffee ist erstklassig. Die 2-für-1 Panini-Angebote sind großartig!"</p>
+                        <p class="review-author">– Remote Worker</p>
+                    </div>
+                </div>
+
+                <div class="reviews-cta">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Leo's%20Coffee&query_place_id=ChIJ7wgynmRPqEcR7AKn4n7ae_A" target="_blank" rel="noopener" class="btn btn-primary">Mehr Bewertungen auf Google</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section id="location" class="section location">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Besuchen Sie uns</h2>
+                    <p class="section-subtitle">Wir freuen uns auf Ihren Besuch</p>
+                </div>
+
+                <div class="location-content">
+                    <div class="location-info">
+                        <div class="info-card">
+                            <h3>Adresse</h3>
+                            <p>
+                                <strong>Leo's Coffee</strong><br>
+                                Greifswalder Straße 2<br>
+                                10405 Berlin<br>
+                                Deutschland
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Öffnungszeiten</h3>
+                            <table class="hours-table">
+                                <tr>
+                                    <td>Montag - Samstag</td>
+                                    <td>08:00 - 17:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sonntag</td>
+                                    <td>10:00 - 17:00</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Kontakt</h3>
+                            <p>
+                                <strong>Telefon:</strong> <a href="tel:+493050593889">+49 30 50593889</a><br>
+                                <strong>Instagram:</strong> <a href="https://instagram.com/leoscoffeeberlin" target="_blank" rel="noopener">@leoscoffeeberlin</a>
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Anfahrt</h3>
+                            <p>
+                                <strong>U-Bahn:</strong> U2 Senefelderplatz (5 Min. zu Fuß)<br>
+                                <strong>Tram:</strong> M2, M4, M10<br>
+                                <strong>Bus:</strong> 142, 200
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.127!2d13.4237!3d52.5319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e64269a080f%3A0xf07bda7ee2a702ec!2sLeo's%20Coffee!5e0!3m2!1sen!2sde!4v1234567890"
+                            width="100%"
+                            height="450"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Leo's Coffee Standort auf Google Maps">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Kontaktieren Sie uns</h2>
+                    <p class="section-subtitle">Wir beantworten gerne Ihre Fragen</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-Mail *</label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Betreff *</label>
+                                <select id="subject" name="subject" required aria-required="true">
+                                    <option value="">Bitte wählen...</option>
+                                    <option value="reservation">Reservierung</option>
+                                    <option value="event">Veranstaltung</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Sonstiges</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Nachricht *</label>
+                                <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                        </form>
+
+                        <div id="formMessage" class="form-message" role="alert" aria-live="polite"></div>
+                    </div>
+
+                    <div class="contact-info-sidebar">
+                        <div class="contact-card">
+                            <div class="contact-icon">📞</div>
+                            <h3>Telefon</h3>
+                            <p><a href="tel:+493050593889">+49 30 50593889</a></p>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">📍</div>
+                            <h3>Adresse</h3>
+                            <p>Greifswalder Straße 2<br>10405 Berlin</p>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">📱</div>
+                            <h3>Social Media</h3>
+                            <p>
+                                <a href="https://instagram.com/leoscoffeeberlin" target="_blank" rel="noopener">Instagram</a>
+                            </p>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">🕐</div>
+                            <h3>Öffnungszeiten</h3>
+                            <p>
+                                Mo-Sa: 08:00-17:00<br>
+                                So: 10:00-17:00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Leo's Coffee</h3>
+                    <p>Ihr gemütliches Café im Herzen von Prenzlauer Berg, Berlin.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/leoscoffeeberlin" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Leo's%20Coffee&query_place_id=ChIJ7wgynmRPqEcR7AKn4n7ae_A" target="_blank" rel="noopener" aria-label="Google Maps">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Schnelllinks</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Über Uns</a></li>
+                        <li><a href="#menu">Speisekarte</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <ul class="footer-links">
+                        <li><a href="#location">Standort</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="tel:+493050593889">+49 30 50593889</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Öffnungszeiten</h4>
+                    <p class="footer-hours">
+                        Mo-Sa: 08:00-17:00<br>
+                        So: 10:00-17:00
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Leo's Coffee. Alle Rechte vorbehalten.</p>
+                <p class="footer-credit">Website erstellt mit Liebe für Prenzlauer Berg</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Zurück nach oben">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Gallery Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Schließen">&times;</button>
+        <button class="lightbox-prev" aria-label="Vorheriges Bild">‹</button>
+        <button class="lightbox-next" aria-label="Nächstes Bild">›</button>
+        <img src="" alt="" class="lightbox-image">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

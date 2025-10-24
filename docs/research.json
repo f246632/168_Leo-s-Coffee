@@ -1,0 +1,408 @@
+{
+  "business_name": "Leo's Coffee",
+  "research_date": "2025-10-24",
+  "research_status": "completed",
+
+  "basic_information": {
+    "name": "Leo's Coffee",
+    "address": {
+      "street": "Greifswalder Straße 2",
+      "postal_code": "10405",
+      "city": "Berlin",
+      "district": "Prenzlauer Berg",
+      "country": "Germany"
+    },
+    "contact": {
+      "phone": "+49 30 50593889",
+      "phone_formatted": "030 50593889",
+      "email": "NOT FOUND - Needs verification",
+      "website": "NOT FOUND - No official website detected"
+    },
+    "hours": {
+      "monday": "08:00-17:00",
+      "tuesday": "08:00-17:00",
+      "wednesday": "08:00-17:00",
+      "thursday": "08:00-17:00",
+      "friday": "08:00-17:00",
+      "saturday": "08:00-17:00",
+      "sunday": "10:00-17:00",
+      "note": "Closed 2 hours later on Sundays"
+    }
+  },
+
+  "social_media": {
+    "instagram": {
+      "handle": "@leoscoffeeberlin",
+      "url": "https://www.instagram.com/leoscoffeeberlin/",
+      "followers": "635",
+      "following": "290",
+      "posts": "24",
+      "verified": true,
+      "bio": "Breakfast (Frühstück), Fresh Juices (Frische Säfte), Paninis",
+      "location_tag": "Greifswalderstraße 2, 10405 Berlin"
+    },
+    "facebook": {
+      "status": "NOT FOUND - No dedicated Facebook page detected for Greifswalder Str location",
+      "note": "There are other Cafe Leo pages in Berlin (Wedding location) but not this specific location"
+    },
+    "tripadvisor": {
+      "status": "MINIMAL PRESENCE",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g187323-d27303493-Reviews-Leo_Cafe_Backerei-Berlin.html",
+      "note": "Listed as 'Leo Cafe & Bäckerei' but no reviews or content available yet"
+    },
+    "other_platforms": {
+      "happycow": {
+        "url": "https://www.happycow.net/reviews/leos-berlin-318870",
+        "category": "Coffee & Tea",
+        "status": "Listed but limited information"
+      }
+    }
+  },
+
+  "ratings_and_reviews": {
+    "summary": "Limited online review presence across major platforms",
+    "google_maps": {
+      "rating": "4.8-4.9",
+      "rating_sources": [
+        "Restaurant Guru reports 4.9 from Google",
+        "Alternative source reports 4.8"
+      ],
+      "total_reviews": "589 reviews (per Restaurant Guru)",
+      "note": "Direct Google Maps reviews not accessible due to redirect issues",
+      "reviews": []
+    },
+    "restaurant_guru": {
+      "rating": "4.8/5",
+      "total_reviews": "589",
+      "url": "https://restaurantguru.com/Leos-Berlin-2"
+    },
+    "customer_reviews": {
+      "note": "Unable to extract specific customer review quotes due to website access limitations",
+      "general_sentiment": "Positive reviews emphasizing nice service as a strong point",
+      "sample_reviews": []
+    },
+    "review_collection_challenges": {
+      "google_maps": "Consent/redirect page preventing direct access",
+      "instagram": "Profile content not fully accessible",
+      "restaurant_guru": "503 error on detail page",
+      "11880_directory": "403 forbidden error"
+    }
+  },
+
+  "menu_and_offerings": {
+    "categories": [
+      "Breakfast (Frühstück)",
+      "Fresh Juices (Frische Säfte)",
+      "Paninis",
+      "Coffee & Hot Drinks"
+    ],
+    "signature_items": {
+      "breakfast": {
+        "description": "Breakfast offerings available",
+        "price_range": "€10-€20 per person (estimated)"
+      },
+      "fresh_juices": {
+        "description": "Freshly made juices",
+        "specific_items": "Details not available"
+      },
+      "paninis": {
+        "description": "Various panini options",
+        "special_offer": "When you order 2 Leo Panini of your choice, the cheaper/equal-priced one is not charged",
+        "specific_items": "Details not available"
+      },
+      "coffee": {
+        "description": "Coffee and hot beverages",
+        "specific_items": "Details not available"
+      }
+    },
+    "pricing": {
+      "average_price_per_person": "€10-€20",
+      "note": "Specific menu prices not fully documented online"
+    },
+    "special_offers": {
+      "panini_deal": "2-for-1 deal: Buy 2 paninis, get the cheaper one free",
+      "cake_and_coffee": "2 hot drinks + 2 cakes: cheaper items not charged",
+      "note": "These deals may be through NeoTaste app partnership"
+    },
+    "dietary_options": {
+      "note": "Not specified in available online information"
+    }
+  },
+
+  "competitive_analysis": {
+    "market_position": "Neighborhood cafe in specialty coffee-rich Prenzlauer Berg district",
+    "prenzlauer_berg_competitors": [
+      {
+        "name": "Bonanza Coffee Roasters",
+        "address": "Oderberger Str. 35, Berlin",
+        "specialty": "Third wave coffee pioneer, own roastery, fruity flavored beans",
+        "unique_features": [
+          "4 locations in Berlin",
+          "Cult-like following",
+          "Industrial-chic aesthetic",
+          "Close to Mauerpark",
+          "Slayer Espresso machine",
+          "300-square-meter roastery in Kreuzberg"
+        ],
+        "positioning": "Premium specialty coffee roaster"
+      },
+      {
+        "name": "Cafelix Coffee Roasters",
+        "location": "Prenzlauer Berg",
+        "specialty": "Specialty coffee with direct farmer sourcing",
+        "unique_features": [
+          "Knowledgeable staff without pretension",
+          "Cozy atmosphere",
+          "Meticulously roasted beans"
+        ],
+        "positioning": "Approachable specialty coffee"
+      },
+      {
+        "name": "Cafe Kraft",
+        "location": "10 minute walk from S-Bahn Schönhauser Allee",
+        "specialty": "Coffee and breakfast",
+        "unique_features": [
+          "Opened 2014 by Marco and Jarves",
+          "Running crew community (Kraft Runners meet Tuesdays 18:45)",
+          "Community-focused"
+        ],
+        "positioning": "Community cafe with running culture"
+      },
+      {
+        "name": "Nonna",
+        "address": "Greifswalder Straße 229, 10405 Berlin",
+        "location_note": "SAME STREET as Leo's Coffee, just different number",
+        "specialty": "Czech-inspired pastries and specialty coffee",
+        "unique_features": [
+          "Iconic light pink doors",
+          "Located along Leise-Park (cemetery-turned-park)",
+          "Freshly baked Czech pastries",
+          "Instagram-worthy aesthetic"
+        ],
+        "positioning": "European pastry cafe with strong visual identity"
+      },
+      {
+        "name": "Pakolat",
+        "address": "Raumerstrasse 40, Prenzlauer Berg",
+        "specialty": "Own coffee roasting",
+        "unique_features": [
+          "Freshest coffee possible",
+          "In-house roasting",
+          "Heart of Prenzlauer Berg location"
+        ],
+        "positioning": "Fresh roasted coffee specialist"
+      },
+      {
+        "name": "No Fire No Glory",
+        "address": "Rykestrasse 45, Prenzlauer Berg",
+        "specialty": "Multiple brewing methods (AeroPress, V60, Kalita Wave, cold drip)",
+        "unique_features": [
+          "Speakeasy-style atmosphere",
+          "Leather couches and vintage décor",
+          "Denmark's Coffee Collective beans",
+          "Opened 2004, relocated 2011"
+        ],
+        "positioning": "Vintage atmosphere specialty cafe"
+      },
+      {
+        "name": "Café CK",
+        "address": "Marienburger Strasse 49, Prenzlauer Berg",
+        "specialty": "Espresso tonics, cold-draft coffees, flat whites",
+        "unique_features": [
+          "Founded by 2012 World Cup Tasters Champion Cory Andreen",
+          "Regular cuppings and tastings",
+          "International roaster selection",
+          "Founded 2009"
+        ],
+        "positioning": "Expert-level specialty coffee with education focus"
+      },
+      {
+        "name": "Godshot",
+        "address": "Immanuelkirchstrasse 32, Prenzlauer Berg",
+        "specialty": "Training space for baristas",
+        "unique_features": [
+          "Custom espresso machine",
+          "Launched baristas across Berlin",
+          "Leather couches",
+          "Relaxed mishmash décor",
+          "Third Wave roasts"
+        ],
+        "positioning": "Barista training and specialty coffee"
+      }
+    ],
+    "market_insights": {
+      "prenzlauer_berg_coffee_scene": "Highly competitive with established specialty coffee culture",
+      "key_trends": [
+        "Third wave specialty coffee dominance",
+        "In-house roasting operations",
+        "Community-focused programming (running clubs, tastings)",
+        "Multiple brewing method offerings",
+        "Instagram-worthy aesthetics",
+        "Direct trade and farmer relationships",
+        "Educational components (cuppings, barista training)"
+      ],
+      "leos_differentiation_opportunities": [
+        "Neighborhood cafe vs. specialty coffee temple",
+        "Accessible breakfast and panini focus",
+        "Casual dining vs. coffee purist",
+        "Competitive pricing with 2-for-1 deals",
+        "Early opening hours (8am) serving working professionals",
+        "Fresh juice offering (less common in competitors)"
+      ]
+    }
+  },
+
+  "unique_selling_points": {
+    "identified_strengths": [
+      "Convenient Prenzlauer Berg location on main street (Greifswalder Straße)",
+      "Extended hours Monday-Saturday (8am-5pm)",
+      "Value-oriented promotions (2-for-1 panini deal)",
+      "Fresh juice offerings alongside coffee",
+      "Breakfast focus for morning clientele",
+      "Neighborhood cafe atmosphere (less intimidating than specialty coffee shops)",
+      "Good service reputation"
+    ],
+    "potential_improvements": [
+      "Minimal online presence and digital marketing",
+      "No official website",
+      "Limited social media engagement (only 24 Instagram posts)",
+      "Low TripAdvisor visibility",
+      "Menu details not readily available online",
+      "No clear specialty coffee positioning vs. competitors"
+    ]
+  },
+
+  "target_audience": {
+    "primary": [
+      "Local Prenzlauer Berg residents",
+      "Morning commuters seeking breakfast",
+      "Casual cafe-goers (not specialty coffee enthusiasts)",
+      "Families and neighborhood regulars"
+    ],
+    "secondary": [
+      "Tourists exploring Prenzlauer Berg",
+      "Students looking for affordable options",
+      "Remote workers seeking quiet workspace"
+    ]
+  },
+
+  "website_recommendations": {
+    "must_have_features": [
+      "Full menu with current prices and photos",
+      "Online ordering or reservation capability",
+      "Clear location map and directions",
+      "Photo gallery showcasing atmosphere",
+      "Customer testimonials and reviews integration",
+      "Special offers and promotions prominently displayed",
+      "Mobile-responsive design",
+      "Multi-language support (German/English minimum)",
+      "Social media integration",
+      "Contact form and newsletter signup"
+    ],
+    "design_inspiration": {
+      "suggested_style": "Warm, welcoming neighborhood cafe aesthetic",
+      "color_palette": "Warm browns, cream, green accents (coffee/nature theme)",
+      "photography_style": "Natural light, authentic neighborhood feel, appetizing food close-ups",
+      "avoid": "Overly minimalist specialty coffee aesthetic, too corporate/chain-like"
+    },
+    "content_priorities": [
+      "Emphasize breakfast and panini specialties",
+      "Highlight fresh juice offerings",
+      "Feature 2-for-1 promotional deals",
+      "Showcase neighborhood connection and local charm",
+      "Include customer review quotes when available",
+      "Display hours prominently (especially Sunday difference)",
+      "Add 'About Us' story to create personal connection"
+    ]
+  },
+
+  "data_collection_notes": {
+    "successful_sources": [
+      "Instagram profile @leoscoffeeberlin (partial data)",
+      "Restaurant Guru aggregated data",
+      "German business directory (11880.com) - contact info",
+      "NeoTaste platform - promotional information",
+      "Specialty coffee guides - competitor analysis"
+    ],
+    "blocked_or_limited_sources": [
+      "Google Maps direct access (redirect/consent issues)",
+      "Restaurant Guru detail pages (503 errors)",
+      "11880.com business directory (403 forbidden)",
+      "Instagram full profile content (technical limitations)"
+    ],
+    "missing_information": [
+      "Official email address",
+      "Official website URL",
+      "Specific customer review quotes with names and dates",
+      "Detailed menu with all items and exact prices",
+      "Photos of interior and dishes",
+      "Owner/operator information",
+      "Business history and founding story",
+      "Specific coffee bean sourcing information",
+      "Seating capacity",
+      "WiFi availability",
+      "Payment methods accepted"
+    ],
+    "recommended_next_steps": [
+      "Direct phone call to verify email and website status",
+      "In-person visit to photograph menu and interior",
+      "Request menu via Instagram DM",
+      "Check Google My Business listing directly (if verified)",
+      "Survey neighborhood for on-site signage and materials",
+      "Review paper/printed menu if available",
+      "Interview owner for business story and values"
+    ]
+  },
+
+  "competitor_website_examples": {
+    "bonanza_coffee": {
+      "likely_features": [
+        "Product shop for coffee beans",
+        "Multiple location information",
+        "Roasting philosophy and process",
+        "Wholesale/B2B section",
+        "Blog about coffee culture",
+        "Events calendar for cuppings"
+      ]
+    },
+    "typical_berlin_cafe_sites": {
+      "common_elements": [
+        "Instagram feed integration",
+        "Minimalist design with bold photography",
+        "Bilingual (German/English)",
+        "Embedded Google Maps",
+        "Reservation systems",
+        "Newsletter signup",
+        "Menu PDFs",
+        "Press/media section"
+      ]
+    }
+  },
+
+  "research_summary": {
+    "overall_findings": "Leo's Coffee is a neighborhood cafe in Prenzlauer Berg with minimal online presence despite operating in one of Berlin's most competitive specialty coffee districts. The business has solid fundamentals (good location, positive ratings, value promotions) but lacks digital visibility that could attract new customers. The cafe positions itself as an accessible breakfast and panini spot rather than competing directly with specialty coffee establishments.",
+
+    "key_insights": [
+      "4.8-4.9 rating suggests strong customer satisfaction",
+      "589 reviews indicate established customer base",
+      "Limited social media activity (24 posts) suggests growth opportunity",
+      "No website is significant gap in 2025 cafe market",
+      "Value promotions (2-for-1 deals) differentiate from premium competitors",
+      "Fresh juice offering is unique in local market",
+      "Sunday hours (10am start) different from weekday schedule"
+    ],
+
+    "website_project_value": "HIGH - Business currently has no website, creating significant opportunity to improve online visibility, attract new customers, showcase offerings, and compete more effectively in digital-first market.",
+
+    "priority_content_needs": [
+      "Professional food photography",
+      "Complete menu with prices",
+      "Customer testimonials",
+      "About/story section",
+      "Location and directions",
+      "Promotional offers clearly displayed",
+      "Social proof (ratings, review count)",
+      "Contact information and hours"
+    ]
+  }
+}

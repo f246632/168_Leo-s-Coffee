@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "total_images": 10,
+    "source": "Google Places API",
+    "downloaded_date": "2025-10-24",
+    "base_path": "images/source",
+    "resolution": "1920x1080"
+  },
+  "images": [
+    {
+      "id": 1,
+      "filename": "hero-exterior-1.jpg",
+      "original_url": "https://lh3.googleusercontent.com/p/AF1QipOl-YqEeDie-3fM1xPHYAjm8hloEm9qOG6tBlUW=w1920-h1080-k-no",
+      "category": "hero",
+      "type": "exterior",
+      "description": "Main exterior view of Leo's Coffee storefront",
+      "usage": "hero-section, homepage-banner",
+      "alt_text": "Leo's Coffee exterior storefront view"
+    },
+    {
+      "id": 2,
+      "filename": "gallery-interior-1.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noiYYx6TFPe-kkELOUreGc9chK8oZjcyliRHeOeN1-oA8kag86e2OY7h0eyXnv2vgdwpbv7hpJxzbeDA3WpBbtE2f8dK7b6f_S4SMADNdAB__ZJlpXdq_z0-3X9LzZZ7GYpATtS=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "interior",
+      "description": "Interior view showing seating and ambiance",
+      "usage": "gallery, about-section",
+      "alt_text": "Cozy interior of Leo's Coffee with seating area"
+    },
+    {
+      "id": 3,
+      "filename": "gallery-coffee-1.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noSTQ397qGQtpfso-z6zwzfWXxNBFWgayJLYvd7suYydjtGQ3365IcmyekjX3BOB_fGemBpt19fCn66sygt5c6lmTxdAd1XpeN4fVFW-vq7iixPCln0MKPNXhqSh907fctqpbkJExO7rqrA=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "product",
+      "description": "Coffee drinks and beverages",
+      "usage": "gallery, menu-section",
+      "alt_text": "Specialty coffee drinks at Leo's Coffee"
+    },
+    {
+      "id": 4,
+      "filename": "hero-exterior-2.jpg",
+      "original_url": "https://lh3.googleusercontent.com/p/AF1QipPVz46E_Mxj8sJrsmlffXD3JSczdXiRGeEUkQcE=w1920-h1080-k-no",
+      "category": "hero",
+      "type": "exterior",
+      "description": "Alternative exterior view of Leo's Coffee",
+      "usage": "hero-section, carousel",
+      "alt_text": "Leo's Coffee entrance and facade"
+    },
+    {
+      "id": 5,
+      "filename": "gallery-interior-2.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npwui1AfVKeWJBs5OMsydrqitgBLcc1crslJnWiLDNlUCfAct3gvUvF5B__xMe5CFXm2SyH5yHVA_vyXGotP3J9djFXglkSua_09hEQnetQSC_YIvzf5l-n8tFCYFts0yoB4sOZXC5JDcCA=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "interior",
+      "description": "Additional interior view with decor details",
+      "usage": "gallery, atmosphere-showcase",
+      "alt_text": "Leo's Coffee interior design and atmosphere"
+    },
+    {
+      "id": 6,
+      "filename": "gallery-barista-1.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrENCcMZR2kbADpwlvE-8TrSGA-Izrqhfadtt9S2-1Jgxe4LbOxQTWl7wyBVK63XIlcVbTHZj6skOs00FlhDxSwKM21LOEB2UhNogOqi7qtmMVXv_FdhaKkJS06uMMG7ZYmz6izj0DBTHc=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "staff",
+      "description": "Barista at work or coffee preparation",
+      "usage": "gallery, team-section",
+      "alt_text": "Professional barista at Leo's Coffee"
+    },
+    {
+      "id": 7,
+      "filename": "gallery-seating-1.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqr4ma5A01Cb1U-yF2JmHAhsIu0RiJWPeyJtlsZX4hdEqhoRRflFpYbLFx7RRO0ixy72Oul3OTMHnTGpm-ww56Xj_JBT4YXy7gumZRBqRun0Va0ZLKcOA_q5lbssn7t4MZs2dQ=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "interior",
+      "description": "Seating area and customer space",
+      "usage": "gallery, amenities-section",
+      "alt_text": "Comfortable seating at Leo's Coffee"
+    },
+    {
+      "id": 8,
+      "filename": "gallery-coffee-2.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nojV8D2bM5KYUlGnsNdbv_FFuvvvxbZZx2Pxtn5xXyXGrWGyO3xj9_-TjkdwEYfKSTqM2MX3667emWHPTxb-VCS4g4z_p3vQ3dj6zTDaVmh_WwxbLH1BBnDt1XkaHKOXCJHOYOM_zYEdkQ0=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "product",
+      "description": "Additional coffee and beverage shots",
+      "usage": "gallery, menu-showcase",
+      "alt_text": "Artisan coffee beverages at Leo's Coffee"
+    },
+    {
+      "id": 9,
+      "filename": "gallery-interior-3.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npQ2HkZwcjRe_G498ESG3sN02Myjo0IMkmFyV8O4fPMHpBLWVZXzotM-Fz2XeCOfCsc8-S0-Hnl7WRkT7HGmr_-a3ViCBaGapHjkb2aicMi_wVfrRaszcSj4wjE8hSAhBiglSPEoA=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "interior",
+      "description": "Third interior perspective",
+      "usage": "gallery, virtual-tour",
+      "alt_text": "Leo's Coffee interior ambiance"
+    },
+    {
+      "id": 10,
+      "filename": "gallery-food-1.jpg",
+      "original_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noNElETp4IxXXjyPmt7YBxqHTvF-GW4IpDnqmz8_wFJ4vLBi2MNWDrKReI2URJDWt3kR18gOV5NUod5XLzUE5lDM7g-nvRxmq6Ku1CaOq9ZlfejzL1FGlN6ENmkWqP4DioGMk-qxw=w1920-h1080-k-no",
+      "category": "gallery",
+      "type": "food",
+      "description": "Food items and pastries",
+      "usage": "gallery, menu-section",
+      "alt_text": "Fresh pastries and food at Leo's Coffee"
+    }
+  ],
+  "image_categories": {
+    "hero": {
+      "count": 2,
+      "description": "Primary banner images for homepage",
+      "files": ["hero-exterior-1.jpg", "hero-exterior-2.jpg"]
+    },
+    "gallery": {
+      "count": 8,
+      "description": "Gallery and interior showcase images",
+      "subcategories": {
+        "interior": ["gallery-interior-1.jpg", "gallery-interior-2.jpg", "gallery-interior-3.jpg", "gallery-seating-1.jpg"],
+        "product": ["gallery-coffee-1.jpg", "gallery-coffee-2.jpg"],
+        "staff": ["gallery-barista-1.jpg"],
+        "food": ["gallery-food-1.jpg"]
+      }
+    }
+  },
+  "optimization_requirements": {
+    "hero_images": {
+      "max_width": 1920,
+      "max_height": 1080,
+      "quality": 85,
+      "format": "webp"
+    },
+    "gallery_images": {
+      "max_width": 1200,
+      "max_height": 800,
+      "quality": 80,
+      "format": "webp"
+    },
+    "thumbnails": {
+      "max_width": 400,
+      "max_height": 300,
+      "quality": 75,
+      "format": "webp"
+    }
+  },
+  "notes": [
+    "All images downloaded from Google Places at 1920x1080 resolution",
+    "Images should be optimized to WebP format for web performance",
+    "Create responsive versions for mobile, tablet, and desktop",
+    "Implement lazy loading for gallery images",
+    "Add appropriate alt text for SEO and accessibility"
+  ]
+}
